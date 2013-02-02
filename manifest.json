@@ -16,7 +16,7 @@
   },
   "options_page": "src/options_custom/index.html",
   "chrome_url_overrides": {
-    "newtab": "src/override/override.html",
+    "newtab": "src/override/override.html"
   },
   "permissions": [
     "http://nabdash.herokuapp.com/*",
