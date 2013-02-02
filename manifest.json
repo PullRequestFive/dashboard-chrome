@@ -1,9 +1,9 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
+  "name": "nabdash",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.io",
-  "homepage_url": "http://extensionizr.com",
+  "description": "A new chrome dashboard.",
+  "homepage_url": "http://nabdash.me",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -17,11 +17,10 @@
   "options_page": "src/options_custom/index.html",
   "chrome_url_overrides": {
     "newtab": "src/override/override.html",
-    "history": "src/override/override.html",
-    "bookmarks": "src/override/override.html"
   },
   "permissions": [
     "http://nabdash.herokuapp.com/*",
+    "http://nabdash.me/*",
     "cookies",
     "geolocation"
   ]
