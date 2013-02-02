@@ -1,4 +1,3 @@
-dashboard-chrome
-================
+# dashboard-chrome
 
-A chrome extension for nabdash
+A chrome extension for [nabdash](https://github.com/PullRequestFive/dashboard).
