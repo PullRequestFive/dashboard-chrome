@@ -1,18 +1,97 @@
 <!doctype html>
 <html>
   <head>
-    <title>Chrome.</title>
+    <title>CHROMEO</title>
+    <link href="https://raw.github.com/necolas/normalize.css/master/normalize.css" rel="stylesheet" type="text/css">
     <style>
-      html {
-        background: url(http://nabdash.herokuapp.com/picture) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+      body {
+        font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+      }
+      header {
+        background:#fff;
+        height:50vh;
+        width:100vw;
+      }
+      
+      header input[type="text"] {
+        display:block;
+        position:relative;
+        top:20vh;
+        border:1px solid #4D90FB;
+        padding:4px 8px;
+        width:600px;
+        
+        margin-left:auto;
+        margin-right:auto;
+      }
+      
+      header input[type="submit"] {
+        display:block;  
+        position:relative;
+        top:20vh;
+        margin-top: 18px;
+        font-family: Arial,sans-serif;
+        margin-left:auto;
+        margin-right:auto;
+        
+        font-size:11px;
+        padding:4px 8px;
+        font-weight:bold;
+        background-color: #f5f5f5;
+        background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+        border:1px solid #dcdcdc;
+        border-radius:2px;
+        cursor:default;
+      }
+      
+      section {
+        float:left;
+        background:red;
+        height:50vh;
+        position:relative;
+        width:20vw;
+        padding:40px;
+        color:#fff;
+      }
+      
+      .facebook {background: #16528E;}
+      .twitter {background: #0082C8;}
+      .cnn {background: #E54B4B;}
+      .weather {background: #157C80;}
+      .time {background: #72616E;}
+      
+      section h3 {
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
       }
     </style>
   </head>
   <body>
-    <h1>Hi.</h1>
+    <header>
+      <input type="text" autocomplete="off" autofocus="autofocus" />
+      <input type="submit" value="Google Search"/>
+    </header>
+    <article>
+      <section class="facebook">
+        <h3>Facebook</h3>
+      </section>
+      
+      <section class="twitter">
+        <h3>Twitter</h3>
+      </section>
+      
+      <section class="cnn">
+        <h3>CNN</h3>
+      </section>
+      
+      <section class="weather">
+        <h3>Weather</h3>
+      </section>
+      
+      <section class="time">
+        <h3>Time</h3>
+      </section>
+    </article>
   </body>
 </html>
